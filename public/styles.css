@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    background: #50a3a2;
+    padding: 0 16px;
+    color: white;
+    font-weight: 300;
+    background: #50a3a2;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* HEADING */
+header {
+    background-color: #eee;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+header h3, h4 {
+    color: #50a3a2;
+    font-weight: 400;
+}
+
+
+/* CONTAINER */
+.container {
+    margin: auto 10%;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.container h3 {
+    word-break: break-word;
+    font-size: 28px;
+    font-weight: 200;
+    padding-bottom: 2em;
+}
+
+
+/* FORM */
+form {
+    padding: 20px 0;
+    position: relative;
+}
+
+form p {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+form select {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 250px;
+    border-radius: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 15px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+}
+
+select option {
+    color:#50a3a2;
+}
+
+
+/* CORRECT & WRONG ANSWER */
+.description {
+    margin-bottom: 1em;
+}
+
+.wrong-answer {
+    margin-top: 10em;
+}
+
+
+/* BUTTONS */
+button {
+    font-family: "Source Sans Pro", sans-serif;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    width: 300px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.start-button {
+    width: 250px;
+}
+
+.question-option-button {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.start-button:hover, .question-option-button:hover {
+    color: #50a3a2;
+    background-color: white;
+    opacity: 0.9;
+}
+
+
+/* SPINNER */
+.loading {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* SWAL */
+.swal2-styled.swal2-confirm {
+    background-color: #50a3a2 !important;
+    width: 75px;
+}
+
+
+/* MUI */
+.MuiBox-root {
+    width: 250px;
+    margin: 0 auto 10px auto;
+}
+
+.MuiFormControl-root {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 3px;
+}
+
+.MuiSelect-select {
+    color: white;
+    font-weight: 300;
+}
+
+#demo-simple-select, #demo-simple-select-label, .MuiSelect-icon{
+    color: white !important;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: auto;
+    }
+    header {
+        padding: 16px;
+    }
+    .trivia-logo {
+        width: 300px;
+        height: 300px;
+    }
+}
