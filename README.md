@@ -1,3 +1,17 @@
+# Play Trivia Game!
+### [Click to Play](https://orcungurer.github.io/trivia/)
+
+## Rules
+
+* There are 10 questions for the category and difficulty you choose.
+* Questions are fetched from Open Trivia Database Api.
+* You have 15 seconds for each question.
+* Each correct answer is 100 points and the remaining time matters!
+  * Example, if you answer a question correctly when there is 10 seconds, the seconds will be multiplied by 5.
+  * So, you will earn 100 points + 50 points due to the remaining time.
+* When you choose wrong answer, the game ends and the result will be shown.
+
+<!--
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
