@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/orcungurer/trivia/badge)](https://www.codefactor.io/repository/github/orcungurer/trivia)
+
 # Play Trivia Game!
 ### [Click to Play](https://orcungurer.github.io/trivia/)
 
