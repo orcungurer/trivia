@@ -13,7 +13,6 @@ body {
     padding: 0 16px;
     color: white;
     font-weight: 300;
-    background: #50a3a2;
     width: 100%;
     height: 100%;
 }
@@ -74,7 +73,7 @@ form select {
     border-radius: 3px;
     font-family: "Source Sans Pro", sans-serif;
     padding: 10px 15px;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 15px;
     display: block;
     text-align: center;
     font-size: 18px;
@@ -109,7 +108,7 @@ button {
     width: 300px;
     font-size: 18px;
     cursor: pointer;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
     display: block;
 }
 
@@ -148,7 +147,7 @@ button {
 /* MUI */
 .MuiBox-root {
     width: 250px;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
 }
 
 .MuiFormControl-root {
